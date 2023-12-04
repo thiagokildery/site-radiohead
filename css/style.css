@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+}
+
+body {
+    background-color: gray;
+}
+
+#cabecalho{
+    margin-bottom: 30px;
+}
+
+#cabecalho img{
+    display: block;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto ;
+}
+
+.titulo-sessao{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#menu ul {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+#menu ul li{
+    list-style: none;
+}
+
+#menu ul li a{
+    display: block;
+    font-size: 32px;
+    padding: 20px;
+    text-decoration: none;
+    color: black;
+    transition: all 0.3s linear;
+}
+
+#menu ul li a:hover{
+    background-color: #918f8f;
+    border-radius: 12px;
+}
+
+
+#texto{
+    font-size: 15px;
+    margin: 10px 10px 10px 10px;
+    text-align: center;
+    background-color: rgba(000, 000, 000, 0.35);
+    margin-left: 25%;
+    margin-right: 25%;
+    color: rgb(201, 192, 192);
+    border-radius: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+}
+
+
+#banda {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 15px;
+    border-radius: 15px;
+    border: solid 2px #000;
+    margin-left: 10%; 
+}
+
+
+#widget{
+    width: 24%;
+    float: left;
+    padding-left: 5px;
+}
+
+.albo{
+    width: 50%;
+    padding-left: 25%;
+}
+
+.container h3{
+    font-size: 15px;
+    margin: 10px 10px 10px 10px;
+    text-align: center;
+    background-color: rgba(000, 000, 000, 0.35);
+    margin-left: 25%;
+    margin-right: 25%;
+    color: rgb(201, 192, 192);
+    border-radius: 15px;
+    padding: 10px 10px 10px 10px;
+}
+
+#fotos{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 40px;
+    list-style: none;
+}
+
+#fotos img{
+    width: 100%;
+    transition: all 0.3s linear;
+}
+
+#fotos img:hover{
+    transform: scale(110%);
+}
+
+
+.membros{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 20px;
+    margin-bottom: 30px;
+    color: rgb(201, 192, 192);
+}
+
+.membros img{
+    width: 30%;
+    border: solid #000;
+    border-radius: 15px;
+}
+
+.membros p {
+    background-color: rgba(000, 000, 000, 0.35);
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.container #videos{
+    display: grid;
+    grid-template-columns: 4fr 4fr;
+    gap: 40px;
+    list-style: none;
+    padding-bottom: 15px;
+}
+
+#premios {
+    font-size: 20px;
+    display: grid;
+    grid-template-columns: 6fr 6fr;
+    margin: 10px 10px 10px 10px;
+    background-color: rgba(000, 000, 000, 0.35);
+    border-radius: 12px;
+    padding: 25px 25px 25px 25px;
+    color: rgb(201, 192, 192);
+    
+}
+
+#premios a{
+    text-decoration: underline;
+    color: rgb(201, 192, 192);
+}
+
+#rodape {
+    padding: 50px;
+    text-align: center;
+    font-size: 14px;
+}
+
+#rodape a{
+    text-decoration: none;
+    color: black;
+}
+
+#rodape a:hover {
+    text-decoration: underline;
+}
